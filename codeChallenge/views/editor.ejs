@@ -1,0 +1,5 @@
+<div class="editor" ng-controller="EditorController as editor">
+	<textarea type="text" ng-model="editor.input"></textarea>
+	<button type="submit" ng-click="editor.executePython()">Submit</button>
+	<p>{{ editor.output }}</p>
+</div>
